@@ -73,7 +73,7 @@ public class BaseClass {
 					MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenShots(driver)).build());
 		}
 
-		report.flush();
+		report.flush(); // to print report
 
 		Reporter.log("Test completed and report generated", true);
 	}
